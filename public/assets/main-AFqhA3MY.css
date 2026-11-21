@@ -127,3 +127,15 @@ html.locked, html.locked body {
     gap: 18px !important;
   }
 }
+
+.hcard--wide ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: clamp(24px, 7vw, 56px) !important;
+}
+.hcard--wide ul li {
+  white-space: nowrap !important;
+  font-size: clamp(1.1rem, 3.8vw, 1.45rem) !important;
+}
